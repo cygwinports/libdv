@@ -1,0 +1,103 @@
+libdv
+------------------------------------------
+The Quasar DV codec (libdv) is a software codec for DV video, the
+encoding format used by most digital camcorders, typically those that
+support the IEEE 1394 (a.k.a. FireWire or i.Link) interface. Libdv was
+developed according to the official standards for DV video: IEC 61834
+and SMPTE 314M.
+
+Library runtime requirements:
+  cygwin-1.5.18-1
+
+Additional requirements for all utilities:
+  libpopt0-1.6.4-4
+
+Additional requirements for playdv:
+  glib-1.2.10-3
+  gtk+-1.2.10-2
+  libSDL-1.2.8-1
+  libiconv2-1.9.2-1
+  libintl3-0.14.1-1
+  xorg-x11-bin-dlls-6.8.2.0-1
+
+Build requirements:
+  cygwin-1.5.18-1
+  autoconf2.5-2.59-3
+  automake1.9-1.9.6.1
+  binutils-20050610-1
+  gawk-3.1.5-1
+  gcc-core-3.4.4-1
+  libtool1.5-1.5.20-1
+  make-3.80-1
+  sed-4.1.4-1
+
+  glib-devel-1.2.10-3
+  gtk+-devel-1.2.10-2
+  libSDL-devel-1.2.8-1
+  libiconv-1.9.2-1
+  gettext-0.14.1-1
+  popt-1.6.4-4
+  xorg-x11-devel-6.8.2.0-1
+
+Canonical website:
+  http://libdv.sourceforge.net/
+
+Canonical download:
+  http://prdownloads.sourceforge.net/libdv/
+
+-------------------------------------------
+
+Build instructions:
+  unpack libdv-0.104-1-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  ./libdv-0.104-1.sh all
+
+This will create:
+  /usr/src/libdv-0.104-1-src.tar.bz2
+  /usr/src/libdv-0.104-1.tar.bz2
+  /usr/src/libdv4-0.104-1.tar.bz2
+
+-------------------------------------------
+
+Files included in the main package:
+
+  /usr/bin/dubdv.exe
+  /usr/bin/encodedv.exe
+  /usr/bin/playdv.exe
+  /usr/include/libdv/dv.h
+  /usr/include/libdv/dv_types.h
+  /usr/lib/libdv.a
+  /usr/lib/libdv.dll.a
+  /usr/lib/libdv.la
+  /usr/lib/pkgconfig/libdv.pc
+  /usr/share/doc/Cygwin/libdv-0.104.README
+  /usr/share/doc/libdv-0.104/AUTHORS
+  /usr/share/doc/libdv-0.104/ChangeLog
+  /usr/share/doc/libdv-0.104/COPYING
+  /usr/share/doc/libdv-0.104/COPYRIGHT
+  /usr/share/doc/libdv-0.104/INSTALL
+  /usr/share/doc/libdv-0.104/NEWS
+  /usr/share/doc/libdv-0.104/README
+  /usr/share/doc/libdv-0.104/README.dvconnect
+  /usr/share/doc/libdv-0.104/README.encoder
+  /usr/share/doc/libdv-0.104/TODO
+  /usr/share/man/man1/dubdv.1.gz
+  /usr/share/man/man1/encodedv.1.gz
+  /usr/share/man/man1/playdv.1.gz
+
+Files included in the libdv4 package:
+
+  /usr/bin/cygdv-4.dll
+
+------------------
+
+Port Notes:
+
+----- version 0.104-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
