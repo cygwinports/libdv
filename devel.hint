@@ -1,6 +1,7 @@
-category: Video
-requires: cygwin libdv4 gtk+ libpopt0
-sdesc: "DV video codec (utilities)"
+category: Video Libs
+requires: cygwin libdv4
+external-source: libdv
+sdesc: "DV video codec (development)"
 ldesc: "The Quasar DV codec (libdv) is a software codec for DV video, the
 encoding format used by most digital camcorders, typically those that
 support the IEEE 1394 (a.k.a. FireWire or i.Link) interface. Libdv was
