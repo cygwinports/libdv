@@ -1,0 +1,13 @@
+--- origsrc/libdv-1.0.0/encodedv/dvconnect.c	2004-05-30 21:05:23.000000000 -0500
++++ src/libdv-1.0.0/encodedv/dvconnect.c	2009-03-29 15:03:52.234375000 -0500
+@@ -29,6 +29,10 @@
+ 
+ #define _FILE_OFFSET_BITS 64
+ 
++#ifdef __CYGWIN__
++#define __USE_LINUX_IOCTL_DEFS
++#endif
++
+ #include <stdio.h>
+ #include <sys/ioctl.h>
+ #include <sys/mman.h>

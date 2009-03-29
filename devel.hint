@@ -1,4 +1,4 @@
-category: Video Libs
+category: Video
 requires: cygwin libdv4
 external-source: libdv
 sdesc: "DV video codec (development)"
