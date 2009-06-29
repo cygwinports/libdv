@@ -1,5 +1,5 @@
 category: Video
-requires: cygwin libgcc1
+requires: libgcc1
 external-source: libdv
 sdesc: "DV video codec (runtime library)"
 ldesc: "The Quasar DV codec (libdv) is a software codec for DV video, the

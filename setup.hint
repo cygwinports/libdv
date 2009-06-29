@@ -1,5 +1,5 @@
 category: Video
-requires: cygwin libdv4 libgcc1 libpopt0
+requires: libdv4 libgcc1 libpopt0
 sdesc: "DV video codec (utilities)"
 ldesc: "The Quasar DV codec (libdv) is a software codec for DV video, the
 encoding format used by most digital camcorders, typically those that
